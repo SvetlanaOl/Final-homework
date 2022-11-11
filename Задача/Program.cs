@@ -13,3 +13,8 @@ if(s.Length<=3)
 }
 return NewArray;
 }
+string[] sArray1 ={"Hello", "2","world", ":-)"};
+
+string[] a = decr(sArray1);
+foreach (string s in a)
+Console.WriteLine(s);
