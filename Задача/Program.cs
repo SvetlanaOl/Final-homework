@@ -3,7 +3,7 @@
 int L = 0;
 foreach(string s in sA)
 if (s.Length<=3) L++;
-string[] NewArray = new string[sA.L];
+string[] NewArray = new string[L];
 int i = 0;
 foreach(string s in sA)
 if(s.Length<=3)
